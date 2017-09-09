@@ -1,0 +1,22 @@
+html {
+	font-family: serif;
+	background-color: black;
+}
+#lyrics-title {
+	font-size: 48px;
+}
+#lyrics-subtitle {
+	font-size: 36px;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+strong {
+	color: red;
+}
+body {
+	color: white;
+}
