@@ -1,0 +1,44 @@
+html,
+body {
+	font-family: 'IM Fell Great Primer', serif;
+	font-size:24px;
+	text-align: center;
+	font-color: white;
+	background-image: url("https://s3.amazonaws.com/media.sheetmusicdirect.com/images/web/smd_113251_ben_e_king_stand_by_me_web.png");
+}
+#lyrics-title {
+	font-size: 48px;
+}
+#lyrics-subtitle {
+	font-size: 36px;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+strong {
+	color: red;
+}
+.Verse .I {
+	font-weight: bold
+}
+.Chorus .I{
+	text-transform: uppercase;
+}
+.Verse .II {
+	font-weight: bold;
+}
+.Chorus .II {
+	text-transform: uppercase;
+}
+.Chorus .III {
+	text-transform: uppercase;
+}
+.Last .Verse {
+	font-weight: bold;
+}
+.last .line {
+	text-decoration: line-through;
+}
