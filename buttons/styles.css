@@ -1,0 +1,431 @@
+html,
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px; /*rounds edge of bckgrnd*/
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59; /* draws a border around the div*/
+	color: #fff; /*text color*/
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+a#btn_cocacola {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 30px;
+	text-align: center;
+}
+#coca-cola:hover {
+	filter: invert(100%);
+
+}
+#appleimg {
+	display: inline-block;
+	border-radius: 50px;
+	margin:auto;
+	width:100px;
+	height:100px;
+	margin-top: 75px;
+}
+#appleimg:hover {
+	filter:invert(100%);
+}
+
+#ibmimg {
+	height: 75px;
+	width: 100px;
+	margin-top: 75px;
+}
+
+#ibmimg:hover {
+	filter:hue-rotate(90deg);
+}
+
+#nerf {
+	display: inline-block;
+	margin: auto;
+	width: 150px;
+	height:100px;
+	margin-top: 75px;
+}		
+#nerf:hover {
+	background-color: black;
+}
+
+#harley-davidson {
+	margin-top: 75px;
+	height:100px;
+	width: 100px;
+}
+#harley-davidson:hover {
+	background-color:black;
+}
+#michaelkors{
+	margin-top: 75px;
+	height: 100px;
+	width: 130px;
+}
+#michaelkors:hover {
+	filter:invert(50%);
+}
+a#btn_ideo{
+		display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: blue;
+	font-family: 'Futura', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+a#btn_ideo:hover {
+	color:hotpink;
+	background-color: blue;
+}
+a#btn_sardellastl{
+	display: block;
+	margin: auto;
+	margin-top: 75px;
+	padding: 16px 16px;
+	background-color: sienna;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 10px;
+}
+a#btn_sardellastl:hover{
+	background-color: aquamarine;
+	color: black;
+}
+a#btn_stlcraigslist{
+	font-family: 'Times New Roman', sans-serif;
+	display:inline-block;
+	background-color: white;
+	margin:auto;
+	margin-top: 75px;
+	color:black;
+	font-size: 30px;
+	text-decoration: none;
+}
+a#btn_stlcraigslist:hover{
+	color:blue;
+}
+#lyft{
+	margin-top: 75px;
+	height:110px;
+	width: 100px;
+}
+#lyft:hover{
+	filter: invert(100%);
+}
+a#samsung{
+	display:inline-block;
+	background-color: blue;
+	color:white;
+	margin-top: 75px;
+	padding: 50px 50px;
+	text-align: center;
+	font-family: 'Futura',sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a#samsung:hover{
+	background-color: gray;
+	color:black;
+}
+#dimecitycycles{
+	margin-top: 75px;
+	height: 100px;
+	width: 100px;
+}			
+#dimecitycycles:hover{
+	filter:hue-rotate(50deg);
+}
+
+a#btn_cartoonnetwork{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('https://vignette.wikia.nocookie.net/logopedia/images/1/1f/Cartoon_Network_2004.svg/revision/latest/scale-to-width-down/250?cb=20170719151556') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_cartoonnetwork:hover{
+	display: inline-block;
+	color: transparent;
+	width: 180px;
+	height: 180px;
+	padding-top: 50px;
+	background: url('https://vignette.wikia.nocookie.net/webarebears/images/b/b8/Bearstack.png/revision/latest?cb=20160613205130') center no-repeat;
+	background-size: contain;
+}
+
+#bissingers{
+	margin-top: 75px;
+	height:100px;
+	width: 150px;
+}
+#bissingers:hover{
+	filter: invert(100%);
+}
+
+a#ofa{
+	display:inline-block;
+	background-color: hotpink;
+	color:white;
+	margin-top: 75px;
+	padding: 50px 25px;
+	text-align: center;
+	font-family: 'Ubuntu',sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	border-radius:10px;
+}
+a#ofa:hover{
+	filter:grayscale(100%);
+}
+#the-tonight-show{
+	margin-top:30px;
+	height:200px;
+	width: 200px;
+}
+#the-tonight-show:hover{
+	transform: rotate(180deg);
+}
+#nike{
+		display: inline-block;
+	width: 200px;
+ 	height:100px;
+ 	padding-top: 50px;
+ 	background: transparent center no-repeat;
+ 	background-size: contain;
+}
+#nike:hover{
+	display: inline-block;
+	color: transparent;
+	width: 200px;
+	height: 110px;
+	padding-top: 50px;
+	background: url('https://static.dezeen.com/uploads/2015/03/Nike-Just-Do-It_dezeen_sq-300x300.jpg') center no-repeat;
+	background-size: contain;
+}
+a#missouribotanicalgarden{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('https://www.mobot.org/classes/img/HORTAE/mbg_logo_centerstack.jpg') center no-repeat;
+ 	background-size: contain;
+}
+a#missouribotanicalgarden:hover{
+	display: inline-block;
+	color: transparent;
+	width: 200px;
+	height: 150px;
+	padding-top: 50px;
+	background: url('https://media-cdn.tripadvisor.com/media/photo-o/0d/68/e6/2c/climatron-at-sunset.jpg') center no-repeat;
+	background-size: contain;
+}
+#instagram{
+	margin-top: 75px;
+	height: 100px;
+	width:100px;
+}
+#instagram:hover{
+	filter:invert(95%);
+}
+#facebook{
+	margin-top: 75px;
+	height: 150px;
+	width:150px;
+}
+#facebook:hover{
+	filter:sepia(100%);
+}
+#pottermore{
+	margin-top: 75px;
+	height:100px;
+	width:200px;
+}
+#pottermore:hover{
+	transform: rotate(270deg);
+}
+
+#thecolorrun{
+	margin-top: 75px;
+}
+#thecolorrun:hover{
+	filter:invert(100%);
+}
+a#moo{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:50px;
+	display:inline-block;
+	color:black;
+	background-color: white;
+	padding: 80px 50px;
+	text-align:center;
+	letter-spacing: 10px;
+	margin-top: 150px;
+	margin:auto;
+	text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+}
+a#moo:hover{
+	background-color: black;
+	color: white;
+}
+#fitbit{
+	margin-top: 25px;
+	height: 150px;
+	width:300px;
+}
+#fitbit:hover{
+	transform: rotate(235deg);
+}
+#explodingkittens{
+	display: inline-block;
+	background-color: black;
+	margin-top:75px;
+	height:120px;
+	width:275px;
+}
+#explodingkittens:hover{
+	background-color: red;
+}
+/* 
+				filter: invert(100%); ->this inverts image colors
+
+				**with images, make sure right size/margins aren't too big
+
+
+
+			*/
