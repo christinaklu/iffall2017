@@ -1,0 +1,129 @@
+html,
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body{
+font-family: 'Archivo Narrow', sans-serif;
+}
+#intro {
+	padding-top: 57px;
+	padding-bottom: 208px;
+	background-image:url(https://media.wired.com/photos/59568e4aad90646d424bbd0b/master/pass/HotDog-682828450-%5BConverted%5D.jpg);
+	max-height: 482px;
+	text-align: center;
+}
+h1 {
+	font-size:78px; 
+	letter-spacing: .75px;
+	margin-bottom: 0;
+}
+h3 {
+	margin-top: 2px;
+	font-size: 30px;
+}
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+#section-title {
+	padding-top:8px;
+	padding-bottom:387px;
+	background-color:sienna;
+	background-size:cover;
+	max-height: 647px;
+	font-size: 18px;
+	letter-spacing: .3px;	
+}
+.section-two-box {
+  box-sizing: border-box;
+  width: 960px;
+  height: 500px;
+  margin: auto;
+}
+#section-two-pic {
+	float: right;
+	height: 300px;
+	width: 400px;
+	margin: 0 0 25px 39px;
+}
+#section-three {
+	max-height: 680px;
+	padding-top:8px;
+	padding-bottom:595px;
+	background-color: skyblue;
+	background-size: cover;
+}
+.box3{
+	width:900px;
+	display:block;
+	margin-left:233px;
+	font-size:18px;
+	line-height:1.34rem;
+}
+.leftcolumn{
+	float:left;
+	width:420px;
+	display:inline-block;
+}
+.rightcolumn{
+	float:right;
+	width:420px;
+	display:inline-block;
+}
+.hotdog{
+	float:left;
+	width:211px;
+	height:150px;
+	padding-right:11px;
+}
+.sub{
+	height:150px;
+	margin-bottom:20px;
+}
+#section-four {
+	padding-top: 6px;
+	padding-bottom: 140px;
+	background-color: white;
+	font-color: black;
+	font-size: 27px;
+	text-align: center;
+}
+.section-four-box {
+  width: 723px;
+  height: 150px;
+  margin: auto;
+  font-size: 27px;
+  line-height: 1.15em;
+}
+#section-five {
+	padding-bottom: 25px;
+	background-color: green;
+	background-size: cover;
+	max-height: 300px;
+}
+.Copyright {
+	font-size: 18px;
+}
+.social-links {
+	width: 965px;
+ 	height: 40px;
+ 	margin: auto;
+	padding: 41px 0;
+}
+.icons {
+  float: right;
+}
+.fa {
+  padding-right: 2px;
+  margin-top: -6px;
+}
+.fa-linkedin-square {
+  color: white;
+  padding-right: 0;
+}
+.fa-facebook-square {
+  color: white;
+}
+.fa-twitter-square {
+  color: white;
+}
