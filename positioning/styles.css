@@ -1,0 +1,38 @@
+html,
+
+.float{
+	float: right;
+}
+#two{
+	position: relative;
+}
+.lr{
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+}
+
+.tr{
+	background-color:green;
+	position:fixed;
+   	top:0;
+   	right:0;
+}
+#four{
+	position:relative;
+}
+.red{
+	background-color: red;
+	z-index: 1;
+	top: 35%;
+	left:35%;
+	position: absolute;
+}
+.black{
+	background-color: black;
+	z-index: 0;
+	top:37%;
+	left:36%;
+	position: absolute;
+
+}
