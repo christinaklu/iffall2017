@@ -1,0 +1,39 @@
+html,
+
+#image{
+		background: linear-gradient( #00007f, #020202, transparent), url(https://i.pinimg.com/736x/5a/d2/09/5ad2094cb5787d998a8936e03fe24045--wallpaper-for-phone-tumblr-wallpaper.jpg);
+		background-attachment: relative;
+	}
+h1{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	position: fixed;
+	top:200px;
+	left: 325px;
+	transform: rotate(270deg);
+
+}
+h2{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	position: fixed;
+	top:200px;
+	right:375px;
+    transform: rotate(90deg);
+}
+p{
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+	color: white;
+	margin-left: 500px;
+	margin-right:500px;
+	margin: auto;
+	padding:50px;
+	position: relative;
+
+}
+
