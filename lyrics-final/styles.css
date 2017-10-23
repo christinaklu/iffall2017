@@ -1,0 +1,161 @@
+html,
+#image{
+
+	}
+.Frank{
+	position: absolute;
+	top:200px;
+	right: 200px;
+	-webkit-opacity: .1;
+	-moz-opacity: .1;
+	opacity: .1;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+}
+.Frank:hover{
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+}
+
+#ferrari{
+	position:fixed;
+	left:325px;
+	top:150px;
+	height: 80px;
+	width: 80px;
+}
+body{
+	font-family: 'Pathway Gothic One', sans-serif;
+	line-height: 25px;
+	font-size: 18px;
+	color: #DCDCDC;
+	width: 500px;
+	background: linear-gradient(#505050, #909090, transparent);
+}
+h1{
+	
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	position: absolute;	
+	margin: auto;
+	padding-left: 50px;
+	top:40px;
+}
+h2{
+
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	position: absolute;
+	top:125px;
+	padding-left: 50px;
+	margin: auto;
+}
+p{
+	width:300px;
+}
+p:hover{
+	color: white;
+}
+.one{
+
+	text-align: left;
+	top: 125px;
+	padding:50px;
+	position: relative;
+}
+.two{
+	position: relative;
+	top: 125px;
+	padding: 50px;
+
+}
+.three{
+	position: relative;
+	top: 125px;
+	padding: 50px;
+}
+.four{
+	position: relative;
+	top: 125px;
+	padding: 50px;
+	text-transform: uppercase;
+
+}
+.five{
+	position: relative;
+	top: 125px;
+	padding: 50px;
+
+}
+#Ocean{
+	position: absolute;
+	bottom:-500px;
+	right: 100px;
+	width:900px;
+	height: 400px;
+	-webkit-opacity: .1;
+	-moz-opacity: .1;
+	opacity: .1;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+}
+#Ocean:hover{
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+}	
+.Album {
+	display: inline-block;
+	background-color: gray;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 100px;
+	width: 250px;
+	top: 40px;
+	padding:10px;
+	text-align: center;
+	border-radius: 20px;
+}
+.Album:hover {
+	background-image: url(http://4c79id2ej5i11apui01ll2wc.wpengine.netdna-cdn.com/wp-content/uploads/2016/08/altblondtumblr_oc8gjpg8Bw1qdrz3yo1_1280-1.jpg);
+	background-size: cover;
+	color:gold;
+}
+.Listen{
+	display: inline-block;
+	background-color: gray;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 400px;
+	width: 175px;
+	top: 40px;
+	padding:10px;
+	text-align: center;
+	border-radius: 20px;
+}
+.Listen:hover{
+	background-image: url(http://s3.amazonaws.com/hiphopdx-production/2016/08/Frank-Ocean-Blonde-Album-712x534.jpg);
+	background-size: cover;
+	color:gold;
+}
