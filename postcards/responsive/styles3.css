@@ -1,0 +1,46 @@
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+html,
+body{
+	height:100%;
+	margin: auto;
+	padding: 0em;
+	box-sizing:border-box;
+	background-color:green;
+	background-image: url(https://chiscroller.files.wordpress.com/2015/03/mr-l.png?w=824);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 70%;
+
+
+}
+.quote{
+	position: absolute;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 50px; 
+	text-align:left; 
+	color: yellow;
+	width: 400px;
+	left: 50px;
+	top:250px;
+
+}
+@media screen and (max-width: 768px){
+	.quote{
+		font-size: 25px;
+		top: 350px;
+		width:200px;
+	}
+
+	body{
+		background-image: url(https://chiscroller.files.wordpress.com/2015/03/mr-l.png?w=824);
+		height: 100%;
+		background-position:right;}
+	}

@@ -1,0 +1,43 @@
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+html,
+body{
+	height:100%;
+	margin: auto;
+	padding: 0em;
+	box-sizing:border-box;
+	background-color:#900C3F;
+	background-image: url(https://i.imgur.com/R3TMlYa.png);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 70%;
+
+
+}
+.quote{
+	position: absolute;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 60px; 
+	text-align:left; 
+	color: #9DC209;
+	width: 450px;
+	left: 200px;
+	top:50px;
+
+}
+@media screen and (max-width: 768px){
+	.quote{
+		font-size: 35px;
+		top: 50px;
+		left: 100px;}
+
+	body{
+		background-image: url(https://i.imgur.com/R3TMlYa.png);
+		height: 100%;

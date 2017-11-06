@@ -1,0 +1,47 @@
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+html,
+body{
+	height:100%;
+	margin: auto;
+	padding: 0em;
+	box-sizing:border-box;
+	background-color:blue;
+	background-image: url(https://www.mariowiki.com/images/8/83/Toadbertmlbis.PNG);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 70%;
+
+
+}
+.quote{
+	position: absolute;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px; 
+	text-align:left; 
+	color: white;
+	width: 450px;
+	left: 200px;
+	top:450px;
+
+}
+@media screen and (max-width: 768px){
+	.quote{
+		font-size: 25px;
+		top: 350px;
+		width:250px;
+		left: 100px;
+	}
+
+	body{
+		background-image: url(https://www.mariowiki.com/images/8/83/Toadbertmlbis.PNG);
+		height: 100%;
+		background-position:right;}
+	}
