@@ -1,0 +1,30 @@
+html {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0c/Camellia_sinensis_%28Boltz_Conservatory%29.JPG);
+	background-size: cover;
+	font-family: 'Monda', sans-serif;
+}
+.navigation a {
+  float: none;
+  color: white;
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid hsla(360, 100%, 100%, 0);
+}
+.sources{
+  color:white;
+  display: inline-block;
+  background-color: green;
+  padding:10px;
+  margin-left: 1000px;
+  margin-top: 50px;
+}
+h1 {
+  color: white;
+  display: block;
+  font-size: 55px;
+  margin-top: 240px;
+  text-align: left;
+}
