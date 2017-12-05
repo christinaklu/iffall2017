@@ -16,6 +16,7 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   margin-top: 25px;
+	margin-left:25px;
 }
 .navigation a {
   float: none;
@@ -27,6 +28,7 @@ html {
   text-align: left;
   border-bottom: 2px solid hsla(360, 100%, 100%, 0);
   width: 200px;
+	margin-left:25px;
 }
 .navigation a:hover {
   color: red;
