@@ -1,0 +1,67 @@
+.box {
+  display: block;
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.word {
+  position: absolute;
+  display: block;
+  opacity: 0.0;
+  text-align: center;
+  top: 0%;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+.title {
+  font-family: 'Scada', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: red;
+}
+
+.second {
+  margin-top: 0;
+  font-family: 'Futura';
+  font-size: 15px;
+  font-weight: 300;
+  color: red;
+}
+
+.box:hover .word{
+  opacity: 1;
+  transition: opacity .5s;
+
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+h1 {
+	font-family: 'Scada', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 100px;
+  font-family: 'Futura';
+  text-align: center;
+}
+
+body {
+  margin-left: 50px;
+  margin-top: 100px;
+}
